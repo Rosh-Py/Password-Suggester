@@ -20,7 +20,7 @@ python pass_suggestion.py hello hiiii124
 
 Output:
 
->>Password 'hello' has been pwned 253581 times, Better try another password.
+>>Password 'hello' has been pwned 253581 times, Better try another password. 
 >>Password 'hiiii124' seems a good password. Go ahead!! :)
 
 
