@@ -12,12 +12,14 @@ Usage instruction:
 
 3. You can check multiple passwords at a time.
 
-e.g.
+###e.g.
 
---command
+###3Command:
+
 python pass_suggestion.py hello hiiii124
 
---output
+###3Output:
+
 Password 'hello' has been pwned 253581 times, Better try another password.
 Password 'hiiii124' seems a good password. Go ahead!! :)
 
