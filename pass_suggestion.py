@@ -34,7 +34,7 @@ except:
 
 api_url = 'https://api.pwnedpasswords.com/range/'
 
-#Convert the password into HEX upper
+#Convert the password into HEX
 def convert_to_hex(password):
     '''
     Converts the password into HEXADECIMAL
