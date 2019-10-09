@@ -7,10 +7,17 @@ try:
 except:
     print('This program requires \'requests\' package to run')
     while True:
-        res=input('Do you want to install it? Press Y/y to install or N/n to exit.')
+        res=input('Do you want to install it? Press Y/y to install or N/n to exit: ')
         if res in ('Y','y'):
             try:
                 os.system("pip install requests")
+                print('''
+-----------------------------------------------------------------------------
+--------------------------------ALRIGHT!!! READY TO RUN----------------------
+-----------------------------------------------------------------------------
+                      ''')
+                import requests
+                break
             except:
                 print("requests package couldn\'t install")
                 print("Exiting....")
@@ -89,7 +96,7 @@ def check_password(args):
             else:
                 print('No response from server. :(')
         except Exception as err:
-            print('Some exception occured {err}')
+            print('Some exception occured',err)
 
 
 if __name__=='__main__':
